@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        alert("estou no HEAD...");
+    </script>
+
+    <script>
+        var x='valor1';
+        let y='valor2';
+        var x='valor3';
+
+        let a=1;
+        a=2;
+        const b=1;
+        b=2
+
+        console.log("teste com VAR");
+        for(var i=0; i<5; i++){
+            console.log("dentro do for"+i);
+        }
+        console.log("fora do for" +i);//5
+
+        console.log("teste das funções");
+        function exemploVar(){
+            console.log("ex var"+w); //undefined
+            for(var w=0; w<5; w++){
+                Console.log("ex var"+w);
+            };
+            console.log("ex var"+w);
+        };
+        function exemplolet(){
+            //console.log("ex let"+m);//m is not defined
+            for(let m=0;m<5;m++){
+                console.jog("ex let"+m);
+            };
+            //console.log is not defined
+        };
+        exemplolet();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

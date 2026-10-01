@@ -1,0 +1,1 @@
+calculadora para media de notas, um programa feito em python (3.14) 
